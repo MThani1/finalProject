@@ -1,0 +1,27 @@
+.wrapper {
+    
+    background-color: rgb(0, 94, 255); 
+    justify-self: center;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 2rem;
+    box-shadow: 0px 79px 200px 0px rgba(0, 0, 0, 0.46);;
+}
+.yap{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.cycle {
+   
+   justify-self: center;
+    width: 10rem;
+    height: 10rem;
+    background: rgba(255, 255, 255, 0.522);
+    border-radius: 10rem;
+}
+
+.spaces{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

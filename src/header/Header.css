@@ -1,0 +1,26 @@
+.h-wrapper {
+    color: white;
+    z-index: 99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+ }
+ .Nilelogo{
+      width: 180px;
+      height: 180px;
+      /* margin-left: 1rem;
+      margin-right: 1rem;
+      cursor: pointer; */
+ }
+
+ .h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+   
+ }
+
+ .h-menu{
+    gap: 2rem;
+ }
