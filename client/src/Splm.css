@@ -1,0 +1,69 @@
+.app-container {
+    position: relative;
+    height: 100vh;
+    background: url('/Nile-Building.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .card {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 420px;
+    padding: 44px 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    background-color: #00bcd4;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  
+  .app-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .menu-icon {
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .count {
+    font-size: 72px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+  .label {
+    font-size: 18px;
+    color: #666;
+  }
+  
